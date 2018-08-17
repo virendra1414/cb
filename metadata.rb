@@ -1,7 +1,7 @@
 name 'cb'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+license 'Apache-2.0'
 description 'Installs/Configures cb'
 long_description 'Installs/Configures cb'
 version '0.1.0'
