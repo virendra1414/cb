@@ -30,11 +30,12 @@ suites:
     run_list:
      # - recipe[yum::default]
      # - recipe[yum_test::test_globalconfig_two]
+     - recipe[cb::default]
    # excludes: fedora-latest
   - name: dnf_compat
     run_list:
-      - recipe[yum::dnf_yum_compat]
-      - recipe[yum_test::test_dnf_compat]
-    includes: fedora-latest
+      #- recipe[yum::dnf_yum_compat]
+      #- recipe[yum_test::test_dnf_compat]
+    #includes: fedora-latest
     
     
