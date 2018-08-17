@@ -1,6 +1,6 @@
 name 'cb'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'testAuthors'
+maintainer_email 'test@example.com'
 license 'Apache-2.0'
 description 'Installs/Configures cb'
 long_description 'Installs/Configures cb'
